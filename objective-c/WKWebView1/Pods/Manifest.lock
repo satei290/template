@@ -1,0 +1,12 @@
+PODS:
+  - SGNavigationProgress (1.2)
+
+DEPENDENCIES:
+  - SGNavigationProgress
+
+SPEC CHECKSUMS:
+  SGNavigationProgress: f04e3bd0058c53e1172ee020b5239f22aa9e4a0f
+
+PODFILE CHECKSUM: c87da9875e3ca47ac3ca25cfce0b1dd919693542
+
+COCOAPODS: 1.0.1

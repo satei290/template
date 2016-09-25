@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LineUI1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K2a-oY-EDh">
+                                <rect key="frame" x="0.0" y="554" width="600" height="46"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4BG-m2-tOb">
+                                        <rect key="frame" x="523" y="8" width="60" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="0Kl-A3-2rY"/>
+                                            <constraint firstAttribute="height" constant="30" id="bBB-kE-EYd"/>
+                                        </constraints>
+                                        <state key="normal" title="電話の絵">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="0Kl-A3-2rY"/>
+                                            </mask>
+                                        </variation>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jvk-de-Vv4">
+                                        <rect key="frame" x="79" y="8" width="442" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="4BG-m2-tOb" firstAttribute="leading" secondItem="jvk-de-Vv4" secondAttribute="trailing" constant="2" id="12H-Ca-ZXB"/>
+                                    <constraint firstItem="jvk-de-Vv4" firstAttribute="top" secondItem="4BG-m2-tOb" secondAttribute="top" id="4AH-2O-Y70"/>
+                                    <constraint firstAttribute="trailing" secondItem="4BG-m2-tOb" secondAttribute="trailing" constant="10" id="5Nv-Ng-4oh"/>
+                                    <constraint firstItem="jvk-de-Vv4" firstAttribute="centerX" secondItem="K2a-oY-EDh" secondAttribute="centerX" id="9b8-6T-kVx"/>
+                                    <constraint firstItem="jvk-de-Vv4" firstAttribute="leading" secondItem="K2a-oY-EDh" secondAttribute="leading" constant="79" id="CVz-3D-BZL"/>
+                                    <constraint firstItem="jvk-de-Vv4" firstAttribute="centerX" secondItem="K2a-oY-EDh" secondAttribute="centerX" id="EGm-p3-YZu"/>
+                                    <constraint firstItem="jvk-de-Vv4" firstAttribute="top" secondItem="K2a-oY-EDh" secondAttribute="top" constant="8" id="Eqd-FU-VfQ"/>
+                                    <constraint firstItem="4BG-m2-tOb" firstAttribute="leading" secondItem="jvk-de-Vv4" secondAttribute="trailing" constant="8" id="Slc-DN-D4M"/>
+                                    <constraint firstAttribute="bottom" secondItem="jvk-de-Vv4" secondAttribute="bottom" constant="8" id="VEm-QQ-04p"/>
+                                    <constraint firstItem="jvk-de-Vv4" firstAttribute="leading" secondItem="K2a-oY-EDh" secondAttribute="leading" constant="79" id="VQV-kT-M3s"/>
+                                    <constraint firstItem="4BG-m2-tOb" firstAttribute="top" secondItem="K2a-oY-EDh" secondAttribute="top" constant="8" id="aUh-AH-fK1"/>
+                                    <constraint firstAttribute="bottom" secondItem="4BG-m2-tOb" secondAttribute="bottom" constant="8" id="b88-kr-Ik2"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="9b8-6T-kVx"/>
+                                        <exclude reference="VQV-kT-M3s"/>
+                                        <exclude reference="5Nv-Ng-4oh"/>
+                                        <exclude reference="Slc-DN-D4M"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="コメント領域" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggx-Ai-PtP">
+                                <rect key="frame" x="249" y="289" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="K2a-oY-EDh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="699-iX-rGQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="K2a-oY-EDh" secondAttribute="bottom" id="PBl-pF-rdc"/>
+                            <constraint firstItem="ggx-Ai-PtP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="d8q-Xv-p6K"/>
+                            <constraint firstItem="ggx-Ai-PtP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dRw-oT-pNu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="K2a-oY-EDh" secondAttribute="trailing" constant="-20" id="xPf-gS-91C"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label1" destination="ggx-Ai-PtP" id="aGx-50-g0v"/>
+                        <outlet property="sendBtn" destination="4BG-m2-tOb" id="OUN-hJ-eQz"/>
+                        <outlet property="textField1" destination="jvk-de-Vv4" id="NqO-92-tEz"/>
+                        <outlet property="textFieldBackView" destination="K2a-oY-EDh" id="3ao-k8-cD0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="337"/>
+        </scene>
+    </scenes>
+</document>
