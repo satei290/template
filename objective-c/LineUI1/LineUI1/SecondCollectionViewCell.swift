@@ -1,0 +1,22 @@
+//
+//  SecondCollectionViewCell..swift
+//  LineUI1
+//
+//  Created by ishikura keisuke on 2016/10/09.
+//  Copyright © 2016年 ishikura keisuke. All rights reserved.
+//
+
+import UIKit
+
+class SecondCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var stampImg: UIImageView!
+    //    override func viewDidLoad() {
+    //        super.viewDidLoad()
+    //    }
+    //
+    //    override func didReceiveMemoryWarning() {
+    //        super.didReceiveMemoryWarning()
+    //    }
+    
+}
+

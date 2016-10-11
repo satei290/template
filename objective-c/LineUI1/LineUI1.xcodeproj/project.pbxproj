@@ -14,6 +14,16 @@
 		6944013F1D89A32800CD7012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6944013D1D89A32800CD7012 /* LaunchScreen.storyboard */; };
 		6944014A1D89A32800CD7012 /* LineUI1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694401491D89A32800CD7012 /* LineUI1Tests.swift */; };
 		694401551D89A32800CD7012 /* LineUI1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694401541D89A32800CD7012 /* LineUI1UITests.swift */; };
+		69857F7E1DACB48900AD8F2F /* SizeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69857F7D1DACB48900AD8F2F /* SizeSettings.swift */; };
+		6995CD061DAA0DEF00D99419 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995CD051DAA0DEF00D99419 /* FirstCollectionViewCell.swift */; };
+		6995CD081DAA0E0400D99419 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995CD071DAA0E0400D99419 /* SecondCollectionViewCell.swift */; };
+		6995CD0A1DAA0E2600D99419 /* ThirdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995CD091DAA0E2600D99419 /* ThirdCollectionViewCell.swift */; };
+		69B48CFB1D9C815700616CC3 /* FirstCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B48CFA1D9C815700616CC3 /* FirstCollectionViewController.swift */; };
+		69B48CFD1D9C816D00616CC3 /* SecondCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B48CFC1D9C816D00616CC3 /* SecondCollectionViewController.swift */; };
+		69B48CFF1D9C819500616CC3 /* ThirdCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B48CFE1D9C819500616CC3 /* ThirdCollectionViewController.swift */; };
+		69D5385F1DAA6FDC00745A21 /* BottomCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D5385E1DAA6FDC00745A21 /* BottomCollectionViewController.swift */; };
+		69D538611DAA70A400745A21 /* BottomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D538601DAA70A400745A21 /* BottomCollectionViewCell.swift */; };
+		69D538631DAA74F100745A21 /* BottomChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D538621DAA74F100745A21 /* BottomChangeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		694401501D89A32800CD7012 /* LineUI1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineUI1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		694401541D89A32800CD7012 /* LineUI1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUI1UITests.swift; sourceTree = "<group>"; };
 		694401561D89A32800CD7012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69857F7D1DACB48900AD8F2F /* SizeSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeSettings.swift; sourceTree = "<group>"; };
+		6995CD051DAA0DEF00D99419 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		6995CD071DAA0E0400D99419 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		6995CD091DAA0E2600D99419 /* ThirdCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdCollectionViewCell.swift; sourceTree = "<group>"; };
+		69B48CFA1D9C815700616CC3 /* FirstCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewController.swift; sourceTree = "<group>"; };
+		69B48CFC1D9C816D00616CC3 /* SecondCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewController.swift; sourceTree = "<group>"; };
+		69B48CFE1D9C819500616CC3 /* ThirdCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdCollectionViewController.swift; sourceTree = "<group>"; };
+		69D5385E1DAA6FDC00745A21 /* BottomCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomCollectionViewController.swift; sourceTree = "<group>"; };
+		69D538601DAA70A400745A21 /* BottomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomCollectionViewCell.swift; sourceTree = "<group>"; };
+		69D538621DAA74F100745A21 /* BottomChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomChangeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,16 @@
 				6944013B1D89A32800CD7012 /* Assets.xcassets */,
 				6944013D1D89A32800CD7012 /* LaunchScreen.storyboard */,
 				694401401D89A32800CD7012 /* Info.plist */,
+				69B48CFA1D9C815700616CC3 /* FirstCollectionViewController.swift */,
+				69B48CFC1D9C816D00616CC3 /* SecondCollectionViewController.swift */,
+				69B48CFE1D9C819500616CC3 /* ThirdCollectionViewController.swift */,
+				6995CD051DAA0DEF00D99419 /* FirstCollectionViewCell.swift */,
+				6995CD071DAA0E0400D99419 /* SecondCollectionViewCell.swift */,
+				6995CD091DAA0E2600D99419 /* ThirdCollectionViewCell.swift */,
+				69D5385E1DAA6FDC00745A21 /* BottomCollectionViewController.swift */,
+				69D538601DAA70A400745A21 /* BottomCollectionViewCell.swift */,
+				69D538621DAA74F100745A21 /* BottomChangeViewController.swift */,
+				69857F7D1DACB48900AD8F2F /* SizeSettings.swift */,
 			);
 			path = LineUI1;
 			sourceTree = "<group>";
@@ -188,21 +218,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "ishikura keisuke";
 				TargetAttributes = {
 					694401301D89A32800CD7012 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = P8V6325E2P;
+						LastSwiftMigration = 0800;
 					};
 					694401441D89A32800CD7012 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = P8V6325E2P;
+						LastSwiftMigration = 0800;
 						TestTargetID = 694401301D89A32800CD7012;
 					};
 					6944014F1D89A32800CD7012 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = P8V6325E2P;
+						LastSwiftMigration = 0800;
 						TestTargetID = 694401301D89A32800CD7012;
 					};
 				};
@@ -259,8 +292,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B48CFD1D9C816D00616CC3 /* SecondCollectionViewController.swift in Sources */,
+				69857F7E1DACB48900AD8F2F /* SizeSettings.swift in Sources */,
+				69D538611DAA70A400745A21 /* BottomCollectionViewCell.swift in Sources */,
 				694401371D89A32800CD7012 /* ViewController.swift in Sources */,
+				69D538631DAA74F100745A21 /* BottomChangeViewController.swift in Sources */,
+				6995CD0A1DAA0E2600D99419 /* ThirdCollectionViewCell.swift in Sources */,
 				694401351D89A32800CD7012 /* AppDelegate.swift in Sources */,
+				6995CD081DAA0E0400D99419 /* SecondCollectionViewCell.swift in Sources */,
+				6995CD061DAA0DEF00D99419 /* FirstCollectionViewCell.swift in Sources */,
+				69B48CFF1D9C819500616CC3 /* ThirdCollectionViewController.swift in Sources */,
+				69D5385F1DAA6FDC00745A21 /* BottomCollectionViewController.swift in Sources */,
+				69B48CFB1D9C815700616CC3 /* FirstCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +372,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -375,8 +420,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -395,6 +442,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -408,6 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ltd.co.mypace.LineUI1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -419,6 +468,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ltd.co.mypace.LineUI1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -430,6 +480,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ltd.co.mypace.LineUI1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LineUI1.app/LineUI1";
 			};
 			name = Debug;
@@ -442,6 +493,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ltd.co.mypace.LineUI1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LineUI1.app/LineUI1";
 			};
 			name = Release;
@@ -453,6 +505,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ltd.co.mypace.LineUI1UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LineUI1;
 			};
 			name = Debug;
@@ -464,6 +517,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ltd.co.mypace.LineUI1UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LineUI1;
 			};
 			name = Release;
@@ -487,6 +541,7 @@
 				6944015B1D89A32800CD7012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6944015C1D89A32800CD7012 /* Build configuration list for PBXNativeTarget "LineUI1Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +550,7 @@
 				6944015E1D89A32800CD7012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6944015F1D89A32800CD7012 /* Build configuration list for PBXNativeTarget "LineUI1UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +559,7 @@
 				694401611D89A32800CD7012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
